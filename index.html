@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Edit Spells</title>
+        <style>
+            body {
+                background-color: #222;
+                color: #eee;
+            }
+
+            details details,
+            details details p {
+                margin-left: 15px;
+            }
+        </style>
+        <script type="module" defer>
+            import spells from "./spells.js";
+            import formatSpells from "./format-spells.js";
+            /*
+                document
+                    .querySelector("xmp")
+                    .innerHTML = JSON.stringify(spells, null, 4);
+            */
+            document.body.innerHTML = formatSpells(spells);
+        </script>
+    </head>
+    <body></body>
+</html>
