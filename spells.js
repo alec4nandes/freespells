@@ -50,7 +50,7 @@ function fixNonCapitalizedHeaders(result) {
         let lastTitle;
         // modify spells
         Object.entries(spells).forEach(([spellTitle, lines]) => {
-            const isTitle = !spellTitle.split(" ")[0].match(/[a-z]/);
+            const isTitle = !spellTitle.split(" ")[0].match(/[a-z0-9]/);
             if (!isTitle && lastTitle) {
                 spells[lastTitle] = [
                     ...spells[lastTitle],
