@@ -16,13 +16,8 @@
             }
         </style>
         <script type="module" defer>
-            import spells from "./spells.js";
+            import spells from "./data-copy1.js";
             import formatSpells from "./format-spells.js";
-            /*
-                document
-                    .querySelector("xmp")
-                    .innerHTML = JSON.stringify(spells, null, 4);
-            */
             document.body.innerHTML = formatSpells(spells);
         </script>
     </head>

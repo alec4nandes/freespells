@@ -43883,8 +43883,8 @@ const spells = {
             "to make a bargain with me by giving me extreme wealth in return for using my Magick",
             'to "incarnate" it into my future first born. After that I said hell with this and chunked the',
             "stone outside in the summer heat.",
-            ".",
-            "THE ASSKISSER GETS WHAT IS COMING TO THEM SPELL",
+        ],
+        "THE ASSKISSER GETS WHAT IS COMING TO THEM SPELL": [
             "This spell is designed to let a brown-noser get back what they send out.",
             "This spell does not directly harm the target, they do it to themselves.",
             "For this spell you need a sheet of paper, scissors, a black candle, some black string,",
@@ -44216,3 +44216,5 @@ const spells = {
         ],
     },
 };
+
+export default spells;
