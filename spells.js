@@ -2,6 +2,8 @@ import rawHTML from "./raw-html.js";
 
 const spells = getSpells();
 
+console.log(spells);
+
 function getSpells() {
     let result = Object.entries(rawHTML).reduce(
         (acc, [section, html]) => ({
